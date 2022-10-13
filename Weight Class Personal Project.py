@@ -2,7 +2,6 @@
 user_weight = float(input("Enter your weight: "))
 
 
-
 if user_weight <= 115:
     print("You are strawweight.")
 elif user_weight <= 125:
@@ -33,6 +32,4 @@ elif user_weight > 265:
     print("You are super heavyweight.")
 else:
     print("Please enter a valid weight.")
-
-
 
